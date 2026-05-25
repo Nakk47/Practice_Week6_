@@ -42,7 +42,7 @@ void main() {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.g_mobiledata, color: Colors.white, size: 28),
+                    
                       SizedBox(width: 8),
                       Text(
                         "Continue with Google",
@@ -62,7 +62,7 @@ void main() {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.apple, color: Colors.white, size: 22),
+                    
                       SizedBox(width: 8),
                       Text(
                         "Sign in with Apple",
