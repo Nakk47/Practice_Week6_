@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './ui/screens/welcome_screen.dart';
-import './ui/screens/temperature_screen.dart'; // Import TemperatureScreen
+import './ui/screens/temperature_screen.dart';
 
 class TemperatureApp extends StatefulWidget {
   const TemperatureApp({super.key});
@@ -31,16 +31,7 @@ class _TemperatureAppState extends State<TemperatureApp> {
           ),
 
           // Decide which screen to show
-          child: isStarted
-              ? TemperatureScreen() // After START button is pressed
-              : WelcomeScreen(
-                  onStart: () {
-                    setState(() {
-                      // Update state and rebuild UI
-                      isStarted = true;
-                    });
-                  },
-                ),
+
         ),
       ),
     );

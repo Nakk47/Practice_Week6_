@@ -8,9 +8,9 @@ void main() {
       children: [
         Container(
           width:700,
-          margin: EdgeInsets.symmetric(vertical: 20), 
+          margin: EdgeInsets.symmetric(vertical: 80), 
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(23),
+            borderRadius: BorderRadius.circular(90),
             color: Colors.blue[100]
           ),
           child: Center(

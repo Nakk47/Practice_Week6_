@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class WelcomeScreen extends StatelessWidget {
-  final VoidCallback onNext;
+class Converterscreen extends StatelessWidget {
+  final VoidCallback onStart;
 
-  const WelcomeScreen({super.key, required this.onNext});
+  const Converterscreen({super.key, required this.onStart});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class WelcomeScreen extends StatelessWidget {
           ),
           const SizedBox(height: 15),
           OutlinedButton(
-            onPressed: onNext,
+            onPressed: onStart,
             style: OutlinedButton.styleFrom(
               side: const BorderSide(width: 1.0, color: Colors.white),
             ),

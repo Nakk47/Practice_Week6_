@@ -1,11 +1,11 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(home: Container(
     color: Colors.blue[300],
     padding: EdgeInsets.all(50),
-    margin: EdgeInsets.all(40),
+    margin: EdgeInsets.all(80),
     child: Container(
       decoration: BoxDecoration(
         color: Colors.blue[600],
@@ -14,7 +14,7 @@ void main() {
       child: Center(child: Text("CADT STUDENT"
       ,style: TextStyle(
         fontSize: 30,
-        color: CupertinoColors.lightBackgroundGray
+        color:Colors.white
       ),))
     ),
     
